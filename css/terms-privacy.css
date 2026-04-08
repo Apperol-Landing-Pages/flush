@@ -1,0 +1,67 @@
+@import "../assets/font/stylesheet.css";
+
+.container_terms_privacy{
+  max-width: 992px;
+  padding: 0 16px;
+  margin: 0 auto;
+  color: #333333;
+}
+
+.section_title_terms_privacy{
+  color: #05070F;
+  text-align: left;
+  font-size: 48px;
+  padding-top: 30px;
+  padding-bottom: 15px;    
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 0 auto;  
+}
+
+.section_subtitle_terms_privacy{
+  color: #05070F;
+  text-align: left;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 15px;    
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 0 auto;  
+}
+
+.section_subtitle_terms_privacy_2{
+  color: #05070F;
+  text-align: left;
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 15px;    
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 0 auto;  
+}
+
+.section_text_terms_privacy{
+   color: #05070F8A;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 0 auto; 
+}
+
+.ul-t-p li {
+    position: relative;
+    padding-left: 1em;
+}
+
+.ul-t-p li::before {
+    content: "•";           
+    position: absolute;
+    left: 0;
+    color: #333333;
+    font-size: 1em;
+}
